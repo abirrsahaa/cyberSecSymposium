@@ -1,0 +1,77 @@
+/* write your css here */
+.custom {
+  background-image: url("./assets/Insta\ post\ Backgrond.png");
+} 
+
+@font-face {
+  font-family: "bender-light";
+  src: url(../src/assets/fonts/Jovanny\ Lemonad\ -\ Bender-Light.otf) format('truetype');;
+}
+
+@font-face {
+  font-family: "bender-black";
+  src: url(../src/assets/fonts/Jovanny\ Lemonad\ -\ Bender-Black.otf) format('truetype');;
+}
+
+@font-face {
+  font-family: "bender-bold";
+  src: url(../src/assets/fonts/Jovanny\ Lemonad\ -\ Bender-Bold.otf) format('truetype');;
+}
+
+body{
+  background-color: #161f2a;
+  overflow-x: hidden;
+}
+
+.commonBG{
+  background-color: #161f2a;
+}
+
+.commonFontLight{
+  font-family: bender-light;
+}
+
+.mainNav {
+  background-color: #101a24;
+  /* padding: 10px; */
+}
+
+.bookTicket{
+  background-color: #09131d;
+  font-family: "bender-black";
+  text-transform: uppercase;
+}
+
+.heroSection{
+  background: url("./assets/Insta post Backgrond.png");
+}
+
+.typingText {
+  color: #12e2bf;
+  font-family: "bender-light";
+}
+
+.errorBox{
+  color: #12e2bf;
+  font-family: "bender-light";
+  border: 1px solid #12e2bf;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+.joinAssembly{
+  color: #12e2bf;
+  font-family: "bender-light";
+  font-size: 60px;
+}
+
+.welcomeText{
+  color: #12e2bf;
+  font-family: "bender-light";
+
+}
+
+.slideImageBG{
+  background-image: url("./assets/Insta\ post\ Backgrond.png");
+}
